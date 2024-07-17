@@ -7,10 +7,10 @@ const Home = () => {
     <div className='max-w-5xl text-center mt-10'>
       <nav className='text-white font-inter font-medium text-center'>
         <div className="flex align-center justify-between p-6 bg-slate-800 rounded-full">
-          <Link href="/" className= 'hover:text-blue-200 ml-10'>Home</Link>
-          <Link href="/shop" className='hover:text-blue-200'>Shop</Link>
-          <Link href="/contact" className='hover:text-blue-200'>Contact</Link>
-          <Link href="/about" className='hover:text-blue-200 mr-10'>About</Link>
+          <Link href="/" className= 'hover:text-blue-200 ml-10 font-bold'>Home</Link>
+          <Link href="/shop" className='hover:text-blue-200 font-bold'>Shop</Link>
+          <Link href="/contact" className='hover:text-blue-200 font-bold'>Contact</Link>
+          <Link href="/about" className='hover:text-blue-200 mr-10 font-bold'>About</Link>
         </div>
       </nav>
       <br />
@@ -20,7 +20,7 @@ const Home = () => {
            Velit dolor maxime fugiat eaque maiores tempore! Unde ea soluta eaque aliquid, mollitia animi vel!
       </p>
       <div className='flex align-center mt-10'>
-        <img src="/cr7_phone.jpg" width={300} height={300} alt="where image?" />
+        <img src="/cr7_phone.jpg" width={300} height={300} alt="where image?"/>
       </div>
     </div>
   )
