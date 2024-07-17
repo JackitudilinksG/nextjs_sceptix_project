@@ -4,13 +4,13 @@ import Image from 'next/image'
 
 const Shop = () => {
   return (
-    <div className='max-w-5xl text-center mt-3'>
+    <div className='max-w-5xl text-center mt-10'>
       <nav className='  text-white font-inter  font-medium   text-center'>
-        <div className=" flex align-center justify-between p-6 bg-slate-800 rounded-md">
-          <Link href="/" className= 'hover:text-blue-200'>Home</Link>
+        <div className=" flex align-center justify-between p-6 bg-slate-800 rounded-full">
+          <Link href="/" className= 'hover:text-blue-200 ml-10'>Home</Link>
           <Link href="/shop" className='hover:text-blue-200'>Shop</Link>
           <Link href="/contact" className='hover:text-blue-200'>Contact</Link>
-          <Link href="/about" className='hover:text-blue-200'>About</Link>
+          <Link href="/about" className='hover:text-blue-200 mr-10'>About</Link>
         </div>
       </nav>
       <br/>
